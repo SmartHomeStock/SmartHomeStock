@@ -100,11 +100,10 @@ body{
   'two'
   'three'
   'four';
-  padding-block: 2rem;
+  padding: 2rem 3vw;
   width: min(95%, 70rem);
   margin-inline: auto;
   justify-items: center;
-  align-items: center;
   text-align: justify;
   
 }
@@ -152,9 +151,8 @@ body{
 
     flex-direction: column;
     text-align: left;
-    padding: min(30vh, 10rem) 2em;
-  
-    background: hsl(0 0% 100% / 0.2);
+    padding: min(20vh,6rem) min(10vw, 3rem); /* presa no topo*/
+    background: hsl(0 0% 0% / 0.3);
     backdrop-filter: blur(.1rem);
     
     transform: translateX(100%);
@@ -175,7 +173,7 @@ body{
     width: 1.5rem;
     border: 0;
     aspect-ratio: 1;
-    top: 2rem;
+    top: 1rem;
     right: 1rem;
   }
 
@@ -184,7 +182,7 @@ body{
   }
 
   .navbar-link{
-    color: var(--clr-black);
+    color: var(--clr-white);
     font-size: 1rem;
     font-weight: 700;
   }
