@@ -9,24 +9,30 @@
     />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Smart Home Stock</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="navbar-header">
+      <a class="logo" href="/">SHS</a>
+      <button class="mobile-nav-toggle" aria-controls="navbar-nav" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+      </button>
       <nav>
-        <span class="nav_start"><a href="/">SHS</a></span>
-        <ul class="nav_end">
-          <li class>
-            <a href="#">Home</a>
+        <ul id="navbar-nav" class="navbar-nav" data-visible="false">
+          <li class="navbar-item navbar-item-active">
+            <a class="navbar-link" href="#">Home</a>
           </li>
-          <li>
-            <a href="#">Products</a>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Products</a>
           </li>
-          <li>
-            <a href="#">Updates</a>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Updates</a>
           </li>
-          <li>
-            <a href="#">Team</a>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Team</a>
           </li>
         </ul>
       </nav>
@@ -36,17 +42,17 @@
       <div class="index-grid">
         <img class="img-products-grid" src="img/slide1.jpg">
         <div class="products-container-grid">
-          <h1>Products</h1>
+          <h1 class="index-grid-title">Products</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellendus reprehenderit ipsam expedita repellat at assumenda esse? A commodi rem totam, provident consectetur omnis doloribus dolor voluptatum fugiat architecto. Minus, reprehenderit. Beatae nobis, aut quo veniam a, corrupti magnam nam velit error ut assumenda voluptate facere laboriosam adipisci exercitationem necessitatibus iusto, animi sapiente obcaecati quam nihil esse temporibus dolores mollitia? Modi tempore est ex, doloremque soluta, nisi dicta, voluptas alias saepe labore ea suscipit molestiae officia quia aut sit doloribus? Molestias rerum inventore porro ipsam asperiores architecto ipsa culpa, placeat unde tempore eum, voluptatum consequatur dicta eos error, iste reiciendis!</p>
         </div>
         <img class="img-updates-grid" src="img/Updates.jpg">
         <div class="updates-container-grid">
-          <h1>Updates</h1>
+          <h1 class="index-grid-title">Updates</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellendus reprehenderit ipsam expedita repellat at assumenda esse? A commodi rem totam, provident consectetur omnis doloribus dolor voluptatum fugiat architecto. Minus, reprehenderit. Beatae nobis, aut quo veniam a, corrupti magnam nam velit error ut assumenda voluptate facere laboriosam adipisci exercitationem necessitatibus iusto, animi sapiente obcaecati quam nihil esse temporibus dolores mollitia? Modi tempore est ex, doloremque soluta, nisi dicta, voluptas alias saepe labore ea suscipit molestiae officia quia aut sit doloribus? Molestias rerum inventore porro ipsam asperiores architecto ipsa culpa, placeat unde tempore eum, voluptatum consequatur dicta eos error, iste reiciendis!</p>
       </div>
     </main>
 
     <footer></footer>
-    <script src="js/app.js"></script>
   </body>
+  <script src="nav.js"></script>
 </html>
