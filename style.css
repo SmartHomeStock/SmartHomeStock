@@ -82,7 +82,7 @@ body{
 
 .navbar-link, .company-name{
   text-decoration: none;
-  color: var(--clr-white);
+  color: var(--clr3);
   font-size: 1.5rem;
   text-transform: uppercase;
 }
