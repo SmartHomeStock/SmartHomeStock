@@ -34,11 +34,12 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 1rem;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Saira Condensed", sans-serif;
 }
 
 body{
   overflow-x:hidden;
+  background-color: var(--clr1);
 }
 
 .sr-only {
@@ -55,7 +56,7 @@ body{
 	white-space: nowrap !important;            /* 3 */
 }
 
-.logo{
+.company-name{
   margin: 2rem;
 }
 
@@ -66,7 +67,7 @@ body{
   text-align: center;
   position: fixed;
   width: 100vw;
-  
+  z-index: 999;
 }
 
 .mobile-nav-toggle{
@@ -79,16 +80,11 @@ body{
   gap: 3em;
 }
 
-.navbar-link, .logo{
+.navbar-link, .company-name{
   text-decoration: none;
   color: var(--clr-white);
   font-size: 1.5rem;
-}
-
-.img_fundo1{
-  max-width: 100%;
-  height: auto;
-  margin: 0;
+  text-transform: uppercase;
 }
 
 .index-grid{
@@ -107,6 +103,40 @@ body{
   text-align: justify;
   
 }
+
+.slogan{
+  width: 100vw;
+  height: 60vh;
+  background-image: url(img/header_img.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  z-index: 1;
+}
+
+.slogan > p{
+  color: var(--clr-white);
+  font-size: 8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: inherit;
+  background-image: linear-gradient(to right,rgba(0, 35, 51,1) 45%,rgba(0,0,0,0) 75%);
+  z-index: inherit;
+  padding: 15vh 0 0 8vw;
+  font-weight: 700;
+  line-height: 8rem;
+  text-transform: uppercase;
+}
+
+p > .slogan-highlight{
+  color: #159A9C;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 .img-products-grid{
   grid-area: one;
   object-fit: contain;
@@ -116,17 +146,33 @@ body{
   grid-area: two ;
 }
 
-.img-updates-grid{
-  grid-area: three;
+.updates-container{
+  padding: 0 20vw;
 }
 
-.updates-container-grid{
-  grid-area: four ;
+h2{
+  font-size: 2em;
+  padding-left: 0.5em;
+  margin-bottom: 20px;
+  border-left: 0.2em solid;
+  border-color: var(--clr4);
+  text-transform: uppercase;
+  color: var(--clr4);
 }
 
-.index-grid-title{
-  font-size: 1.5rem;
+h3{
+  font-size: 1.5em;
+  color: var(--clr3);
 }
+
+.update {
+  padding-bottom: 50px;
+}
+
+.text-color1{
+  color: var(--clr3);
+}
+
 
 @media (min-width: 850px){
   .index-grid{
@@ -136,7 +182,7 @@ body{
   }
 
   .navbar-nav{
-    margin-inline-end: 5vw;
+    margin-inline-end: 7vw;
   }
 
 }
