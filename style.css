@@ -124,13 +124,13 @@ body{
   font-weight: inherit;
 }
 
-.about-content{
+.about-container{
   display: flex;
   align-items: center;
   gap: 30px;
   margin: auto;
   text-align: justify;
-  padding: 75px 20vw;
+  padding: 100px 20vw 0 20vw;
   height: auto;
 }
 
@@ -150,27 +150,29 @@ body{
 }
 
 .updates-container{
-  padding: 0 20vw;
+  padding: 100px 20vw 0 20vw;
 }
 
 .update-date{
   font-size: 2rem;
   color: var(--clr3);
+  padding-top: 50px;
 }
 
 .update-text, .about-text{
   font-size: 1.3rem;
-  padding-bottom: 50px;
   color: var(--clr3);
   text-align: justify;
 }
 
-.team-title{
-  margin-left: 20vw;
+.team-container{
+  padding: 100px 20vw 0 20vw;
+  display: flex;
+  flex-flow: column;
 }
 
+
 .team-grid{
-  margin: 0 20vw;
   display: grid;
   gap:3rem;
   grid-auto-columns: 1fr;
@@ -183,7 +185,7 @@ body{
 }
 
 .member-image{
-  max-width: 80%;
+  max-width: 60%;
   border-radius: 50%;
 }
 
@@ -258,7 +260,7 @@ footer{
     gap: 1rem;
   }
 
-  .about-content{
+  .about-container{
     flex-direction: column;
   }
   
