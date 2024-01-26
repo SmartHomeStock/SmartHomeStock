@@ -135,8 +135,8 @@ body{
 }
 
 .product{
-  max-width: 40%;
-  height: auto;
+  object-fit: cover;
+  max-width: 30%;
 }
 
 .section-title{
