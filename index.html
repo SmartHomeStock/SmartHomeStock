@@ -23,17 +23,17 @@
       </button>
       <nav>
         <ul id="navbar-nav" class="navbar-nav" data-visible="false">
-          <li class="navbar-item navbar-item-active">
-            <a class="navbar-link" href="#home">Home</a>
+          <li>
+            <a class="navbar-link" href="#home" >Home</a>
           </li>
-          <li class="navbar-item">
+          <li>
             <a class="navbar-link" href="#about">About</a>
           </li>
-          <li class="navbar-item">
+          <li>
             <a class="navbar-link" href="#updates">Updates</a>
           </li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#">Team</a>
+          <li>
+            <a class="navbar-link" href="#team">Team</a>
           </li>
         </ul>
       </nav>
@@ -42,13 +42,13 @@
       <div class="slogan" id="home">
       <p>Your Home, <br> <span class="slogan-highlight">Our Care</span></p> 
       </div>
-      <div class="index-grid">
-        <img class="img-log" 
-          src="img/slide1.jpg"
-          alt="Products Image">
-        <div class="products-container-grid">
-          <h2 id="about">What is SHS</h2>
-          <p class="text-color1">
+      <div class="about-content">
+        <img class="product"
+        src="img/container.png"
+          alt="Product Image">
+        <div>
+          <h2 class="section-title" id="about">What is SHS</h2>
+          <p class="about-text">
             Smart Home Stock is designed to streamline your grocery shopping experience. The product consists of practical containers for use at home, connected to a mobile application. This app monitors the quantity of food items in the containers and notifies you when it's time to add them to your shopping list. 
             <br> <br>
 This idea emerged from a project proposal presented by Instituto Superior Técnico. It signifies the culmination of the Electronic Engineering studies of the involved members, marking the conclusion of their undergraduate degrees.
@@ -56,27 +56,78 @@ This idea emerged from a project proposal presented by Instituto Superior Técni
         </div>
       </div>
         <div class="updates-container">
-          <h2 id="updates">Updates</h2>
-          <h3>First Meetings</h3>
-          <p class="update text-color1">
+          <h2 class="section-title" id="updates" >Updates</h2>
+          <h3 class="update-date">First Meetings</h3>
+          <p class="update-text text-color1">
             We initiated the brainstorming phase to generate project ideas and concluded that we wanted to create something focused on improving logistical efficiency – a practical, compact, and user-friendly solution for the general public. After a thorough discussion of ideas, we arrived at the final proposal for a product aimed at optimizing household shopping, particularly concerning groceries.
 Subsequent steps involved seeking out a mentor to guide us through the process, establishing a timeline with goals to achieve throughout the year, and identifying the fundamental skills required for project development. For instance, we recognized the need to learn HTML for website creation.
 In this context, we acquired the necessary skills to meet our objectives, implemented a structured timeline for ongoing guidance, and remained committed to the continuous development of the project.
           </p>
-          <h3>4/12/2023</h3>
-          <p class="update text-color1">
+          <h3 class="update-date">4/12/2023</h3>
+          <p class="update-text text-color1">
             We began envisioning the containers, raising questions about practicality, loading, and design. One idea that emerged was to have an outer container with an inner container for storing the food. The outer container would feature a scale at its base, and it would be taller than the inner one to allow stacking without affecting the weight measured by the lower container's scale.We also contemplated the possibility of inductive charging, although our knowledge on the subject was limited. For the scale, we envisioned a functionality where it starts off when the container is removed, remains active for 5 seconds upon being placed back, and then turns off again. Regarding materials, we considered using acrylic-polystyrene plastic for both the container and the lid, and synthetic rubber for the seal.
           </p>
-          <h3>11/12/2023</h3>
-          <p class="update text-color1">
+          <h3 class="update-date">11/12/2023</h3>
+          <p class="update-text text-color1">
             We began planning the components for the scale. After watching several videos and exploring various websites, we considered using the following components: HX711 + Load Cell, Arduino, ESP-8266 (Wi-Fi), or HC-06 (Bluetooth).
 At this stage, we concluded the HTML study and commenced the website development. Concurrently, we designed the first prototype.
           </p>
-          <h3>18/12/2023</h3>
-          <p class="update text-color1">
+          <h3 class="update-date">18/12/2023</h3>
+          <p class="update-text text-color1">
             The group was divided into two distinct teams. The first team, composed of Renato, Ricardo, and Rafaela, focused primarily on developing the prototype for publication, as well as selecting materials and hardware. Conversely, the second team, consisting of Vera, Leonor, and Henrique, was dedicated to website development. Both teams aimed to achieve their respective objectives by January 8, 2024.
 During the planning phase, there was a reassessment of the material choice for the container's base. The idea emerged to link this base to a "mini router," equipped with either an ESP 8266 or ESP 32. The container itself would be outfitted with a BLE or ESP 8266 to establish a connection with the router.r.
           </p>
+        </div>
+        <h2 id="team" class="section-title team-title"> Team</h2>
+        <div class="team-grid">
+          <div>
+            <img class="member-image"
+            src="img/member.png" 
+            alt="">
+            <p class="member-name">
+              Ricardo Fiúza
+            </p>
+          </div>
+          <div>
+            <img class="member-image"
+            src="img/member.png" 
+            alt="">
+            <p class="member-name">
+              Rafaela Pereira
+            </p>
+          </div>
+          <div>
+            <img class="member-image"
+            src="img/member.png" 
+            alt="">
+            <p class="member-name">
+              Henrique Simões
+            </p>
+          </div>
+          <div>
+            <img class="member-image"
+            src="img/member.png" 
+            alt="">
+            <p class="member-name">
+              Vera Amaral
+            </p>
+          </div>
+          <div>
+            <img class="member-image"
+            src="img/member.png" 
+            alt="">
+            <p class="member-name">
+              Renato Simões
+            </p>
+          </div>
+          <div>
+            <img class="member-image"
+            src="img/member.png" 
+            alt="">
+            <p class="member-name">
+              Leonor Mira
+            </p>
+          </div>
         </div>
     </main>
 
