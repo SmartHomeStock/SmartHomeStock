@@ -65,9 +65,9 @@ body{
   text-align: center;
   position: fixed;
   top:0;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
-  padding: 2vh 5vw;
+  padding: 0.7rem 5%;
   background-color: rgba(0, 35, 51, 0.6);
   backdrop-filter: blur(3px);
 }
@@ -91,46 +91,18 @@ body{
   font-weight: 700;
 }
 
-.slogan{
-  width: 100vw;
-  height: 60vh;
-  background-image: url(img/header_img.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
-  z-index: 1;
+.slogan > img{
+  width: 100%;
+  object-fit: cover;
+  
 }
-
-.slogan > p{
-  color: var(--clr-white);
-  font-size: 8rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: inherit;
-  background-image: linear-gradient(to right,rgba(0, 35, 51,1) 45%,rgba(0,0,0,0) 75%);
-  z-index: inherit;
-  padding: 15vh 0 0 8vw;
-  font-weight: 700;
-  line-height: 8rem;
-  text-transform: uppercase;
-}
-
-.slogan-highlight{
-  color: #159A9C;
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 .about-container{
   display: flex;
   align-items: center;
   gap: 30px;
   margin: auto;
   text-align: justify;
-  padding: 100px 20vw 0 20vw;
+  padding: 100px 20% 0 20%;
   height: auto;
 }
 
@@ -150,7 +122,7 @@ body{
 }
 
 .updates-container{
-  padding: 100px 20vw 0 20vw;
+  padding: 100px 20% 0 20%;
 }
 
 .update-date{
@@ -166,7 +138,7 @@ body{
 }
 
 .team-container{
-  padding: 100px 20vw 0 20vw;
+  padding: 100px 20% 0 20%;
   display: flex;
   flex-flow: column;
 }
@@ -199,7 +171,7 @@ body{
 }
 
 footer{
-  height: 25vh;
+  height: 25%;
   background-color: var(--clr4);
   margin-top: 100px;
 }
@@ -214,8 +186,8 @@ footer{
 
     flex-direction: column;
     text-align: left;
-    padding: min(20vh,6rem) min(10vw, 3rem); /* presa no topo*/
-    background: hsl(0 0% 0% / 0.3);
+    padding: min(20%,6rem) 8%; /* presa no topo*/
+    background:  rgba(0, 35, 51, 0.4);
     backdrop-filter: blur(.1rem);
     
     transform: translateX(100%);
@@ -246,7 +218,7 @@ footer{
 
   .navbar-link{
     color: var(--clr-white);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
   }
 
