@@ -93,7 +93,7 @@ body{
 
 .home-container{
   position: relative;
-  height: 45vh;
+  height: 50vh;
 }
 
 .home-img{
@@ -147,7 +147,7 @@ body{
 
 .product{
   object-fit: cover;
-  max-width: 30%;
+  max-width: 25%;
 }
 
 .section-title{
