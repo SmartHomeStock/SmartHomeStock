@@ -80,7 +80,6 @@ body{
 .navbar-nav{
   list-style: none;
   display: flex;
-  gap: 3em;
 }
 
 .navbar-link, .company-name{
@@ -89,6 +88,7 @@ body{
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 700;
+  padding: 0 2rem;
 }
 
 .home-container{
@@ -223,7 +223,7 @@ body{
   padding: 20px 0;
 }
 
-.member-link:hover{
+.darken:hover{
   transform: translateY(5px);
   transition: 0.7s;
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
