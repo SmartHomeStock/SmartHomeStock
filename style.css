@@ -193,7 +193,7 @@ body{
   grid-template-columns: repeat(auto-fit, 15ch); 
   list-style: none;
   background-color: var(--clr1);
-  gap: 5px;
+  gap: 1ch;
   justify-content: center;
   align-items: center;
 }
