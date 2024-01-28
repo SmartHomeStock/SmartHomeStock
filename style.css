@@ -150,7 +150,7 @@ body{
   width: 25%; 
 }
 
-.shs-pp{
+.button{
   display: flex;
   color: var(--clr1);
   text-decoration: none;
@@ -166,7 +166,8 @@ body{
   font-size: 1.2rem;
 }
 
-.shs-pp:hover{
+.button:hover{
+  cursor: pointer;
   color: var(--clr-white);
   background-color: var(--clr4);
   transition: all 1s ease;  
@@ -187,10 +188,32 @@ body{
   margin: 0 20%;
 }
 
-.update-date{
+.update-calendar{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15ch); 
+  list-style: none;
+  background-color: var(--clr1);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-calendar{
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr3);
+  color: var(--clr1);
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 10ch;
+  aspect-ratio: 1;
+}
+
+.update-date{ 
   font-size: 2rem;
   color: var(--clr3);
-  padding-top: 50px;
 }
 
 .update-text, .about-text{
@@ -223,10 +246,10 @@ body{
   padding: 20px 0;
 }
 
-.darken:hover{
+.darken:hover{    
   transform: translateY(5px);
   transition: 0.7s;
-  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25); 
 } 
 
 .member-image{  
@@ -252,11 +275,11 @@ footer{
     gap: 1.5em;
 
     position: fixed;
-    inset: 0 0 0 60%;
+    inset: 0 0 0 55%;
 
     flex-direction: column;
     text-align: left;
-    padding: min(20%,6rem) 8%; /* presa no topo*/
+    padding: min(20%,6rem) 5%; /* presa no topo*/
     background:  rgba(0, 35, 51, 0.4);
     backdrop-filter: blur(.1rem);
     

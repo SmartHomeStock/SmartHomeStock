@@ -34,30 +34,30 @@
       <nav>
         <ul id="navbar-nav" class="navbar-nav" data-visible="false">
           <li>
-            <a class="navbar-link darken" href="#home" >Home</a>
+            <a class="navbar-link darken" href="index.html#home">Home</a>
           </li>
           <li>
-            <a class="navbar-link darken" href="#about">About</a>
+            <a class="navbar-link darken" href="index.html#about">About</a>
           </li>
           <li>
-            <a class="navbar-link darken" href="#updates">Updates</a>
+            <a class="navbar-link darken" href="index.html#updates">Updates</a>
           </li>
           <li>
-            <a class="navbar-link darken" href="#team">Team</a>
+            <a class="navbar-link darken" href="index.html#team">Team</a> 
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="home-container" id="home">
+      <section class="home-container" id="home">
         <img src="img/img-home.webp" alt="person shoopping" class="home-img">
         <div class="slogan-background">
           <p class="slogan">Your Home,<br> 
             <span class="slogan-highlight">Our Care</span>
           </p>
         </div>
-      </div>
-      <div id="about" class="about-container">
+      </section>
+      <section id="about" class="about-container">
         <div>
           <h2 class="section-title">What is SHS</h2>
           
@@ -66,13 +66,13 @@
             <br> <br>
 This idea emerged from a project proposal presented by Instituto Superior Técnico. It signifies the culmination of the Electronic Engineering studies of the involved members, marking the conclusion of their undergraduate degrees.
           </p>
-          <a href="SHS - Project Proposal.pdf" class="shs-pp" download="">Project Proposal File</a>
+          <a href="SHS - Project Proposal.pdf" class="button" download="">Project Proposal File</a>
         </div>  
         <img class="product"
         src="img/container.png"
           alt="Product Image">  
-      </div>
-        <div id="updates" class="updates-container">
+      </section>
+        <section id="updates" class="updates-container">
           <h2 class="section-title">Updates</h2>
           <h3 class="update-date">First Meetings</h3>
           <p class="update-text ">
@@ -80,21 +80,13 @@ This idea emerged from a project proposal presented by Instituto Superior Técni
 Subsequent steps involved seeking out a mentor to guide us through the process, establishing a timeline with goals to achieve throughout the year, and identifying the fundamental skills required for project development. For instance, we recognized the need to learn HTML for website creation. 
 In this context, we acquired the necessary skills to meet our objectives, implemented a structured timeline for ongoing guidance, and remained committed to the continuous development of the project.
           </p>
-          <h3 class="update-date">4/12/2023</h3>
-          <p class="update-text">
-            We began envisioning the containers, raising questions about practicality, loading, and design. One idea that emerged was to have an outer container with an inner container for storing the food. The outer container would feature a scale at its base, and it would be taller than the inner one to allow stacking without affecting the weight measured by the lower container's scale.We also contemplated the possibility of inductive charging, although our knowledge on the subject was limited. For the scale, we envisioned a functionality where it starts off when the container is removed, remains active for 5 seconds upon being placed back, and then turns off again. Regarding materials, we considered using acrylic-polystyrene plastic for both the container and the lid, and synthetic rubber for the seal.
-          </p>
-          <h3 class="update-date">11/12/2023</h3>
-          <p class="update-text ">
-            We began planning the components for the scale. After watching several videos and exploring various websites, we considered using the following components: HX711 + Load Cell, Arduino, ESP-8266 (Wi-Fi), or HC-06 (Bluetooth).
-At this stage, we concluded the HTML study and commenced the website development. Concurrently, we designed the first prototype.
-          </p>
-          <h3 class="update-date">18/12/2023</h3>
-          <p class="update-text ">
-            The group was divided into two distinct teams. The first team, composed of Renato, Ricardo, and Rafaela, focused primarily on developing the prototype for publication, as well as selecting materials and hardware. Conversely, the second team, consisting of Vera, Leonor, and Henrique, was dedicated to website development. Both teams aimed to achieve their respective objectives by January 8, 2024.
-During the planning phase, there was a reassessment of the material choice for the container's base. The idea emerged to link this base to a "mini router," equipped with either an ESP 8266 or ESP 32. The container itself would be outfitted with a BLE or ESP 8266 to establish a connection with the router.
-        </div>
-        <div id="team" class="team-container">
+
+          <div class="button" id="reverse-button"></div>
+          <div class="update-calendar" id="grid-container">
+            <!-- Grid items will be dynamically added here -->
+          </div>  
+          </section>
+        <section id="team" class="team-container">
           <h2 class="section-title"> Team</h2>
           <div class="team-grid">
             <a class="member-link darken" href="https://www.linkedin.com/in/ricardo-fiúza/" target="_blank">
@@ -146,10 +138,11 @@ During the planning phase, there was a reassessment of the material choice for t
               </p>
             </a>
           </div>
-        </div>
+        </section>
     </main>
     <footer>
     </footer>
   </body>
   <script src="nav.js"></script>
+  <script src="calendar.js"></script> 
 </html>
