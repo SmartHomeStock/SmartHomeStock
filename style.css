@@ -267,7 +267,6 @@ footer{
 .update-container{
   margin: 0 20%;  
   padding-top: 75px;
-  min-height: 400px;
 
   &:first-child {
     margin-top: 1px;
@@ -276,7 +275,7 @@ footer{
     height: calc(100vh - var(--footerh));
   }
 }
-  
+
 @media (max-width: 850px){
   .navbar-nav{
     z-index: 100;

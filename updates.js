@@ -4,7 +4,7 @@ function fadeInOut() {
     elems.forEach((elem) => {
       const elemTop = elem.getBoundingClientRect().top;
       const elemBottom = elem.getBoundingClientRect().bottom;
-      const visibilityThreshold = window.innerHeight * 0.2;
+      const visibilityThreshold = window.innerHeight * 0.1;
   
       const fadeInOpacity = (visibilityThreshold - elemTop) / visibilityThreshold;
       const fadeOutOpacity = (elemBottom - visibilityThreshold) / visibilityThreshold;
