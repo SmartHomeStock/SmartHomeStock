@@ -27,6 +27,7 @@
 
   /* Variáveis*/
   --nav_height: 1.25rem; /* Altura dos elementos e texto da barra de navegacao*/
+  --footerh: 15vh;
 }
 
 * {
@@ -42,6 +43,16 @@
 body{
   overflow-x:hidden;
   background-color: var(--clr1);
+}
+
+main{
+  min-height: calc(100vh - var(--footerh));
+}
+
+footer{
+  height: var(--footerh);
+  width: 100%;
+  background-color: var(--clr4);
 }
 
 .sr-only {
@@ -135,19 +146,25 @@ body{
   color: var(--clr3);
 }
 
-.about-container{
+.section-container{
+  margin: 0 20%;  
+  padding-top: 75px;
+
+  &:last-child{
+    padding-bottom: 75px;
+  }
+}
+ 
+.about-wrapper{
   display: flex;
   position: relative; 
   align-items: center;
   gap: 30px;
-  margin: auto;
   text-align: justify;
-  padding-top: 100px;
-  margin: 0 20% ;
 }
-  
+
 .product{
-  width: 25%; 
+  width: 20%; 
 }
 
 .button{
@@ -155,7 +172,7 @@ body{
   color: var(--clr1);
   text-decoration: none;
   width: 20ch;
-  margin: 20px auto;
+  margin: 10px auto;
   background-color: var(--clr3);
   align-items: center;
   justify-content: center;
@@ -176,24 +193,20 @@ body{
 .section-title{
   font-size: 2.5rem;
   padding-left: 1rem;
-  margin: 20px 0;
   border-left: 0.5rem solid;
   border-color: var(--clr4);
   text-transform: uppercase;
   color: var(--clr4);
 }
 
-.updates-container{
-  padding-top: 100px;
-  margin: 0 20%;
-}
-
 .update-calendar{
   display: grid;
+  margin: 20px 0;
   grid-template-columns: repeat(auto-fit, 15ch); 
   list-style: none;
   background-color: var(--clr1);
   gap: 1ch;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -211,24 +224,12 @@ body{
   aspect-ratio: 1;
 }
 
-.update-date{ 
-  font-size: 2rem;
-  color: var(--clr3);
-}
-
-.update-text, .about-text{
+.styled-paragraph{
   font-size: 1.3rem;
   color: var(--clr4);
   text-align: justify;
+  padding: 10px 0;   
 }
-
-.team-container{
-  padding-top: 100px;
-  margin: 0 20%;
-  display: flex;
-  flex-flow: column;
-}
-
 
 .team-grid{
   display: grid;
@@ -263,12 +264,19 @@ body{
   font-weight: 600;
 }
 
-footer{
-  height: 150px;
-  background-color: var(--clr4);
-  margin-top: 100px;
-}
+.update-container{
+  margin: 0 20%;  
+  padding-top: 75px;
+  min-height: 400px;
 
+  &:first-child {
+    margin-top: 1px;
+  }
+  &:last-child{
+    height: calc(100vh - var(--footerh));
+  }
+}
+  
 @media (max-width: 850px){
   .navbar-nav{
     z-index: 100;
@@ -328,8 +336,9 @@ footer{
     gap: 1rem;
   }
 
-  .about-container{
+  .about-wrapper{
     flex-direction: column;
+    padding-bottom: 20px;
   }
   
   .product{ 
