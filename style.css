@@ -272,6 +272,7 @@ footer{
 .update-container{
   margin: 0 20%;  
   padding-top: 75px;
+  min-height: 40vh;
 
   &:first-child {
     margin-top: 1px;
@@ -339,7 +340,6 @@ footer{
     'three four'
     'five six'
     ;
-    gap: 1rem;
   }
 
   .about-wrapper{

@@ -2,9 +2,10 @@ function fadeInOut() {
   const elems = document.querySelectorAll('.update-container');
 
   elems.forEach((elem) => {
+      const elemHeight = elem.offsetHeight; // Height of the current element
       const elemTop = elem.getBoundingClientRect().top;
-      const elemBottom = elem.getBoundingClientRect().bottom;
-      const visibilityThreshold = window.innerHeight * 0.25;
+      const elemBottom = elemTop + elemHeight;
+      const visibilityThreshold = elemHeight *0.4;
 
       // Calculate opacity based on distance from top and bottom thresholds
       let opacity;
@@ -20,7 +21,7 @@ function fadeInOut() {
           opacity = Math.min(fadeInOpacity, fadeOutOpacity);
       }
 
-      elem.style.transition = 'opacity .5s ease';
+      elem.style.transition = 'opacity .4s ease';
       elem.style.opacity = opacity;
   });
 }
