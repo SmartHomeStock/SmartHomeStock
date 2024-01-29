@@ -272,7 +272,7 @@ footer{
     margin-top: 1px;
   }
   &:last-child{
-    height: calc(100vh - var(--footerh));
+    min-height: calc(100vh - var(--footerh));
   }
 }
 
