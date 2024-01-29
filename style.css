@@ -55,6 +55,11 @@ footer{
   background-color: var(--clr4);
 }
 
+.footer-fixed{
+  position: fixed;
+  bottom: 0;
+}
+
 .sr-only {
 	border: 0 !important;
 	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
@@ -272,7 +277,7 @@ footer{
     margin-top: 1px;
   }
   &:last-child{
-    min-height: calc(100vh - var(--footerh));
+    min-height: 100vh;
   }
 }
 
