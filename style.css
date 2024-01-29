@@ -278,10 +278,12 @@ footer{
   }
   &:last-child{
     min-height: 100vh;
+    padding-bottom: var(--footerh);
   }
 }
 
 @media (max-width: 850px){
+  
   .navbar-nav{
     z-index: 100;
     gap: 1.5em;
