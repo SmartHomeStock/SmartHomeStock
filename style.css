@@ -39,7 +39,6 @@
   scroll-behavior: smooth;
 }
 
-
 body{
   overflow-x:hidden;
   background-color: var(--clr1);
@@ -50,6 +49,7 @@ main{
 }
 
 footer{
+  display: flex;
   height: var(--footerh);
   width: 100%;
   background-color: var(--clr4);
@@ -287,6 +287,13 @@ footer{
     min-height: 100vh;
     padding-bottom: var(--footerh);
   }
+}
+
+.footer-container{
+  margin: 2% 10%;
+}
+
+.mobile-apps{
 }
 
 @media (max-width: 850px){
