@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg enable-background="new 0 0 0v0" version="1.1" viewBox="0 0 700 1150" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:10;}
-	.st1{fill:none;stroke:#000000;stroke-width:3;}
+	.st0{fill:none;stroke:#000;stroke-width:10;}
+	.st1{fill:none;stroke:#000;stroke-width:5;}
+	.st2{fill:#000;}
 </style>
 
 <path class="st0" d="M 100 500 v -300 s -25 0 -25 -25 v -50 s 0 -25 25 -25 h 500 s 25 0 25 25 v 50 s 0 25 -25 25 v 300"/>
@@ -11,10 +12,10 @@
 <line class="st0" x1="605" x2="605" y1="250" y2="300"/>
 <line class="st0" x1="605" x2="605" y1="320" y2="450"/>
 <line class="st1" x1="200" x2="500" y1="180" y2="180"/>
-<polygon points="95,500 95,505 105,500"/>
-<polygon points="95,550 105,545 105,550"/>
-<polygon points="595,500 605,505 605,500"/>
-<polygon points="595,550 595,544 605,550"/>
-<polygon points="95,520 350,390 605,520
-				605,535 350,405	95,535"/>
+<polygon class="st2" points="95,500 95,505 105,500"/>
+<polygon class="st2" points="95,550 105,545 105,550"/>
+<polygon class="st2" points="595,500 605,505 605,500"/>
+<polygon class="st2" points="595,550 595,544 605,550"/>
+<polygon class="st2" points="95,520 350,390 605,520
+							605,535 350,405	95,535"/>
 </svg>
