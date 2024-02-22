@@ -324,7 +324,7 @@ footer{
     position: absolute;
     z-index: 999;
     background-color: transparent;
-    background-image: url("img/menu-open.png");
+    background-image: url("/images/menu-open.png");
     background-size: contain;
     width: 1.5rem;
     border: 0;
@@ -334,7 +334,7 @@ footer{
   }
 
   .mobile-nav-toggle[aria-expanded="true"]{
-    background-image: url("img/menu-close.png");
+    background-image: url("/images/menu-close.png");
   }
 
   .navbar-link{
