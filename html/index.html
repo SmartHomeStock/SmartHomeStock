@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width
+    , initial-scale=1.0"
+    />
+    <title>Smart Home Stock</title>
+    <link rel="icon" href="/images/favicon.svg" type="image/x-icon"/>
+	<link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ES8NXY32JV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ES8NXY32JV');
+    </script>
+  	</head>
+  	<body>
+		<header class="navbar-header">
+			<a class="company-name" href="" target="_top">Smart Home Stock</a>
+			<button class="mobile-nav-toggle" aria-controls="navbar-nav" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
+			<nav id="navbar-nav" class="navbar-nav" data-visible="false">
+			<a class="navbar-link darken" href="#home">Home</a>
+			<a class="navbar-link darken" href="#about">About</a>
+			<a class="navbar-link darken" href="#updates">Updates</a>
+			<a class="navbar-link darken" href="#team">Team</a>
+			</nav>
+		</header>
+		<main>
+			<section class="home-container" id="home">
+				<img src="/images/img-home.webp" alt="person shoopping" class="home-img">
+				<div class="slogan-background">
+					<p class="slogan">Your Home,<br> 
+						<span class="slogan-highlight">Our Care</span>
+					</p>
+				</div>
+			</section>  
+			<section id="about" class="section-container">
+				<div class="about-wrapper"> 
+					<div>
+						<h2 class="section-title">What is SHS</h2>
+						<p class="styled-paragraph">
+							Smart Home Stock is designed to streamline your grocery shopping experience. The product consists of practical containers for use at home, connected to a mobile application. This app monitors the quantity of food items in the containers and notifies you when it's time to add them to your shopping list. 
+						</p>
+						<p class="styled-paragraph">
+							This idea emerged from a project proposal presented by Instituto Superior Técnico. It signifies the culmination of the Electronic Engineering studies of the involved members, marking the conclusion of their undergraduate degrees.
+						</p>
+					</div>
+					<img class="product"
+					src="/images/container.png"
+					alt="Product Image">
+				</div>
+				<object data="/files/SHS - Project Proposal.pdf - Project Proposal.pdf" type="application/pdf" class="project-proposal">
+					<p>Your browser does not support PDF preview.</p>
+				</object>
+				<a href="/files/SHS - Project Proposal.pdf" class="button" download="">Project Proposal File</a>       
+			</section>
+			<section id="updates" class="section-container">
+				<h2 class="section-title">Updates</h2>
+				<div class="button" id="reverse-button"></div>
+				<div class="update-calendar" id="calendar-container">
+				<!-- Grid items will be dynamically added here -->
+				</div>  
+			</section>
+			<section id="team" class="section-container">
+				<h2 class="section-title"> Team</h2>
+				<div class="team-grid">
+					<a class="member-link darken" href="https://www.linkedin.com/in/ricardo-fiúza/" target="_blank">
+					<img class="member-image"
+					src="/images/fiuza.jpg" 
+					alt="">
+					<p class="member-name">
+					Ricardo Fiúza
+					</p>
+					</a>
+					<a class="member-link darken" href="https://www.linkedin.com/in/rafaela-pereira-b304b823b" target="_blank">
+					<img class="member-image"
+					src="/images/member.png" 
+					alt="">
+					<p class="member-name">
+						Rafaela Pereira
+					</p>
+					</a>
+					<a class="member-link darken" href="https://www.linkedin.com/in/henrique-mf-simões/" target="_blank">
+					<img class="member-image"
+					src="/images/member.png" 
+					alt="">
+					<p class="member-name">
+						Henrique Simões
+					</p>
+					</a>
+					<a class="member-link darken" href="https://www.linkedin.com/in/vera-amaral-092495162" target="_blank">
+					<img class="member-image"
+					src="/images/member.png" 
+					alt="">
+					<p class="member-name">
+						Vera Amaral
+					</p>
+					</a>
+					<a class="member-link darken" href="http://www.linkedin.com/in/renato-simões-7691132b1" target="_blank">
+					<img class="member-image"
+					src="/images/member.png" 
+					alt="">
+					<p class="member-name">
+						Renato Simões
+					</p>
+					</a>
+					<a class="member-link darken" href="https://www.linkedin.com/in/leonor-mira/" target="_blank">
+					<img class="member-image"
+					src="/images/leonor.jpg" 
+					alt="">
+					<p class="member-name">
+						Leonor Mira
+					</p>
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-container">
+			Our Apps
+			</div>
+		</footer>
+  	</body>
+	  <script src="/scripts/nav.js"></script>
+	  <script src="/scripts/calendar.js"></script>
+</html>
