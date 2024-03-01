@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const gridContainer = document.getElementById('calendar-container');
+    const gridContainer = document.getElementById('update-calendar');
     const reverseButton = document.getElementById('reverse-button');
 
     // Initial grid items with specific content
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     reverseButton.textContent = 'Oldest to Newest';
 
     reverseButton.addEventListener('click', function () {
-        const gridItems = Array.from(document.querySelectorAll('.grid-item')).reverse();
+        const gridItems = Array.from(document.querySelectorAll('.date-calendar')).reverse();
 
         gridContainer.innerHTML = '';
         gridItems.forEach(item => gridContainer.appendChild(item));
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function createGridItem(content, link, classNames) {
         const gridItem = document.createElement(link ? 'a' : 'div');
-        gridItem.classList.add('grid-item', ...classNames);
+        gridItem.classList.add(...classNames);
         
         if (link) {
             gridItem.href = link;
