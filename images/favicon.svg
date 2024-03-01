@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg enable-background="new 0 0 0v0" version="1.1" viewBox="0 0 700 1150" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<svg enable-background="new 0 0 0v0" version="1.1" viewBox="0 0 1200 1200" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 
 <style type="text/css">
 	.st0{fill:none;stroke:#002333;stroke-width:40;}
@@ -8,15 +8,15 @@
 	.st3{fill:none;stroke:#B4BEC9;stroke-width:80;}
 </style>
 
-<circle class="st2" cx="350" cy="575" r="600"/>
-<path class="st0" d="M 100 850 v -650 s -25 0 -25 -25 v -50 s 0 -25 25 -25 h 500 s 25 0 25 25 v 50 s 0 25 -25 25 v 650 s 25 0 25 25 v 150 s 0 25 -25 25 h -500 s -25 0 -25 -25 v -150 s 2 -25 25 -25 v -50"/>
+<rect class="st2" width="100%" height="100%" rx="25%"/>
+<path class="st0" d="M 350 850 v -600 s -25 0 -25 -25 v -50 s 0 -25 25 -25 h 500 s 25 0 25 25 v 50 s 0 25 -25 25 v 600 s 25 0 25 25 v 150 s 0 25 -25 25 h -500 s -25 0 -25 -25 v -150 s 2 -25 25 -25 v -50"/>
+<line class="st0" x1="350" x2="850" y1="850" y2="850"/>
+<line class="st0" x1="860" x2="860" y1="300" y2="350"/>
+<line class="st0" x1="860" x2="860" y1="370" y2="500"/>
+<line class="st1" x1="450" x2="750" y1="250" y2="250"/>
+<polyline class="st3" points="300,600 600,450 900,600" />
+<polyline class="st0" points="300,600 600,450 900,600" />
+<line class="st3" x1="290" x2="290" y1="550" y2="650" />
+<line class="st3" x1="910" x2="910" y1="550" y2="650" />
 
-<line class="st0" x1="100" x2="600" y1="850" y2="850"/>
-<line class="st0" x1="615" x2="615" y1="250" y2="300"/>
-<line class="st0" x1="615" x2="615" y1="320" y2="450"/>
-<line class="st1" x1="200" x2="500" y1="180" y2="180"/>
-<polyline class="st3" points="50,560 350,400 650,560" />
-<polyline class="st0" points="70,550 350,400 630,550" />
-<line class="st3" x1="40" x2="40" y1="570" y2="500" />
-<line class="st3" x1="660" x2="660" y1="570" y2="500" />
 </svg>
