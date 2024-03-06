@@ -52,6 +52,7 @@ h2{
 	border-color: var(--clr4);
 	text-transform: uppercase;
 	color: var(--clr4);
+	text-align: left;
 }
 
 a {
@@ -314,6 +315,8 @@ a {
 	padding-top: 15ch;
 	min-height: 40vh;
 	opacity: 0;
+	text-align: center;
+
 }
 
 .update-container:first-child {
@@ -322,6 +325,7 @@ a {
 
 .update-container:last-child {
   	min-height: 70vh;
+	padding-bottom: 15ch;
 }
 
 .form {
@@ -330,7 +334,7 @@ a {
 	margin: 0 auto;
 	padding-top: 15ch;
 	border: none;
-	min-height: calc(100vh - 20rem);
+	min-height: 100vh;
 }
 
 @media (max-width: 850px) {
