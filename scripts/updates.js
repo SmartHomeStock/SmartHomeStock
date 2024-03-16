@@ -5,7 +5,7 @@ function fadeInOut() {
       const elemHeight = elem.offsetHeight; // Height of the current element
       const elemTop = elem.getBoundingClientRect().top;
       const elemBottom = elemTop + elemHeight;
-      const visibilityThreshold = elemHeight *0.4;
+      const visibilityThreshold = elemHeight *0.1;
 
       // Calculate opacity based on distance from top and bottom thresholds
       let opacity;
