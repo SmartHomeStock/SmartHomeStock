@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         createGridItem('26/02/2024', 'pages/updates.html#update4', ['date-calendar', 'darken']),
         createGridItem('04/03/2024', 'pages/updates.html#update5', ['date-calendar', 'darken']),
         createGridItem('11/03/2024', 'pages/updates.html#update6', ['date-calendar', 'darken']),
+        createGridItem('18/03/2024', 'pages/updates.html#update7', ['date-calendar', 'darken']),
     ];
 
     // Append initial grid items to the grid container

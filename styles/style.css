@@ -288,7 +288,7 @@ a {
 
 .team-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 300px);
+	grid-template-columns: repeat(auto-fit,290px);
 	text-align: center;
 	justify-content: center;
 	align-items: center;
