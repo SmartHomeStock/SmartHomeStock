@@ -346,6 +346,10 @@ a {
 	max-width: 100%;
 }
 
+.update-images-container figure{
+	min-width: 20%;
+}
+
 .update-images-container figcaption{
 	font-style: italic;
 	color: var(--clr4);
