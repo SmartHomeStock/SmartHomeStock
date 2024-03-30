@@ -356,6 +356,12 @@ a {
 	font-weight: 500;
 }
 
+.ist-logo{
+	display: flex;
+	min-width: 60px;
+	max-width: 60%;
+}
+
 
 .form {
 	display: flex;
