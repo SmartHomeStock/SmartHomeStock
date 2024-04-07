@@ -155,7 +155,7 @@ a {
 
 .footer-links {
 	font-size: 1.5rem;
-  	color: var(--clr1);
+  	color: var(--clr-white);
 }
 
 .footer-links a{
@@ -268,12 +268,12 @@ a {
 .date-calendar {
 	display: flex;
 	font-weight: 700;
+	font-size: 1.8rem;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--clr3);
 	color: var(--clr1);
-	font-size: 1.5rem;
 	width: 10ch;
 	aspect-ratio: 1;
 }
@@ -288,14 +288,13 @@ a {
 
 .team-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit,290px);
+	grid-template-columns: repeat(3, 1fr);
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
 
 .member-link {
-	width: 100%;
 	padding: 20px 0;
 }
 
@@ -372,6 +371,13 @@ a {
 	min-height: 100vh;
 }
 
+@media (max-width: 950px){
+
+	.team-grid{
+		grid-template-columns: repeat(2, 1fr);	
+	}
+}
+
 @media (max-width: 850px) {
 
 	.navbar-nav {
@@ -417,3 +423,13 @@ a {
 		flex-direction: column;
 	}
 }
+
+@media (max-width: 650px){
+
+	.team-grid{
+		grid-template-columns: repeat(1, 1fr);	
+	}
+}
+
+
+
