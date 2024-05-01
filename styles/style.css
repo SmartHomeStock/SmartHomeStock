@@ -216,15 +216,15 @@ a {
 .about-wrapper {
 	display: flex;
 	align-items: center;
-	gap: 10%;
+	gap: 5%;
 }
 
 .about-wrapper div{
-	min-width: 60%;
+	flex-grow: 1;
 }
 
 .about-wrapper img{
-	min-width: 30%;
+	min-width: 45%;	
 	max-width: 100%;
 }
 
