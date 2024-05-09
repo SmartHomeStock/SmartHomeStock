@@ -285,6 +285,11 @@ a {
 	padding: 10px 0;
 	min-width: 80%;
 }
+.styled-paragraph ul {
+	list-style-type: square; 
+	padding-left: 20px; 
+	color: var(--clr4); 
+  }
 
 .team-grid {
 	display: grid;
