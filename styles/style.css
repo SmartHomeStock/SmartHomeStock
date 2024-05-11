@@ -233,7 +233,7 @@ a {
 	color: var(--clr1);
 	width: 20ch;
 	margin: 10px auto;
-	background-color: var(--clr3);
+	background-color: var(--clr4);
 	align-items: center;
 	justify-content: center;
 	padding: 1ch;
@@ -304,7 +304,7 @@ a {
 }
 
 .member-name {
-	color: var(--clr3);
+	color: var(--clr4);
 	font-size: 2rem;
 	font-weight: 600;
 }
