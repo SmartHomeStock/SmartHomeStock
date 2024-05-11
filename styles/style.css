@@ -292,14 +292,7 @@ a {
 #benefits ul li {
     font-size: 1.3rem;
     color: var(--clr4);
-    padding-left: 2rem;
-    position: relative;
-}
-#benefits ul li::before {
-    content: "\2022"; /* bullet point */
-    position: absolute;
-    left: 0;
-    color: var(--clr3);
+    padding-left: 1rem;
 }
 
 #benefits ul ul {
@@ -307,7 +300,7 @@ a {
 }
 
 #benefits ul ul li {
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 @media (max-width: 650px) {
