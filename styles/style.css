@@ -275,11 +275,6 @@ a {
     margin-top: 2rem;
 }
 
-#benefits li::before {
-    content: counter(benefit-counter) ". ";
-    font-weight: bold;
-    color: var(--clr3);
-}
 #benefits h3 {
     font-size: 2rem;
     color: var(--clr4);
