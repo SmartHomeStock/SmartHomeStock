@@ -227,7 +227,97 @@ a {
 	min-width: 45%;	
 	max-width: 100%;
 }
+#benefits {
+    margin: 0 20%;
+    padding-top: 15ch;
+}
+#benefits h2 {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    border-left: 0.5rem solid;
+    border-color: var(--clr4);
+    text-transform: uppercase;
+    color: var(--clr4);
+    text-align: left;
+}
+#benefits ol {
+    list-style: none;
+    counter-reset: benefit-counter;
+}
+#benefits li {
+    counter-increment: benefit-counter;
+    margin-top: 2rem;
+}
 
+Aqui está o texto estilizado dentro do seu código CSS:
+
+css
+Copiar código
+#benefits {
+    margin: 0 20%;
+    padding-top: 15ch;
+}
+
+#benefits h2 {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    border-left: 0.5rem solid;
+    border-color: var(--clr4);
+    text-transform: uppercase;
+    color: var(--clr4);
+    text-align: left;
+}
+
+#benefits ol {
+    list-style: none;
+    counter-reset: benefit-counter;
+}
+
+#benefits li {
+    counter-increment: benefit-counter;
+    margin-top: 2rem;
+}
+
+#benefits li::before {
+    content: counter(benefit-counter) ". ";
+    font-weight: bold;
+    color: var(--clr3);
+}
+#benefits h3 {
+    font-size: 2rem;
+    color: var(--clr4);
+    margin-top: 1rem;
+}
+#benefits ul {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#benefits ul li {
+    font-size: 1.3rem;
+    color: var(--clr4);
+    padding-left: 2rem;
+    position: relative;
+}
+#benefits ul li::before {
+    content: "\2022"; /* bullet point */
+    position: absolute;
+    left: 0;
+    color: var(--clr3);
+}
+
+#benefits ul ul {
+    margin-top: 0.5rem;
+}
+
+#benefits ul ul li {
+    padding-left: 3rem;
+}
+
+@media (max-width: 650px) {
+    #benefits {
+        margin: 0 10%;
+    }
+}
 .button {
 	display: flex;
 	color: var(--clr1);
