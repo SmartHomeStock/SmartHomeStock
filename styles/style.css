@@ -320,12 +320,13 @@ a {
 }
 
 #history p {
-    font-size: 1.3rem;
+    font-size: 1.3rem; /* Ajuste o tamanho da fonte conforme necessário */
     color: var(--clr4);
     text-align: justify;
     padding: 10px 0;
     min-width: 80%;
 }
+
 .button {
 	display: flex;
 	color: var(--clr1);
