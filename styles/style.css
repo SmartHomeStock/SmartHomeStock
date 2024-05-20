@@ -376,7 +376,7 @@ a {
 }
   
   .prototype-images img {
-	height: 200px; /* Definindo a mesma altura para todas as imagens */
+	height: 250px; /* Definindo a mesma altura para todas as imagens */
 	width: auto; /* Mantendo a proporção da imagem */
 	display: block;
 	margin: 0 auto; /* Centralizar a imagem dentro da figura */
