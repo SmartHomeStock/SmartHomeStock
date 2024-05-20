@@ -334,36 +334,40 @@ a {
 	padding: 10px 0;
   }
   
+  /* Estilos para os grupos de equipe */
   .team-group {
-	margin-top: 1rem;
+	margin-top: 2rem;
   }
   
   .team-group h3 {
 	font-size: 2rem;
 	color: var(--clr4);
+	text-transform: uppercase;
   }
   
   .team-group ul {
 	list-style: none;
 	padding-left: 1rem;
+	margin-top: 0.5rem;
   }
   
   .team-group ul li {
 	font-size: 1.3rem;
 	color: var(--clr4);
 	margin-top: 0.5rem;
+	font-family: "Saira Condensed", sans-serif; /* Mantendo a mesma fonte */
   }
   
+  /* Estilos para as imagens do protótipo */
   .prototype-images {
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: center; /* Centralizar as imagens na horizontal */
 	gap: 1rem;
 	margin-top: 1rem;
   }
   
   .prototype-images figure {
-	flex: 1 1 calc(50% - 1rem);
-	margin: 0;
+	flex: 1 1 30%; /* Cada imagem ocupa cerca de 30% da largura */
   }
   
   .prototype-images img {
