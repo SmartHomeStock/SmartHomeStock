@@ -386,7 +386,11 @@ a {
 	text-align: center;
 	margin-top: 0.5rem;
   }
-  
+  h4 {
+	font-size: 1.6rem; /* Menor que o título das equipes */
+	color: var(--clr4); /* Cor consistente com o resto do site */
+	margin-top: 1rem;
+  }
 .button {
 	display: flex;
 	color: var(--clr1);
