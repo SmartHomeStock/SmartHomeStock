@@ -369,13 +369,12 @@ a {
   
   .prototype-images figure {
 	flex: 1; /* As imagens ocuparão o espaço disponível igualmente */
-	max-width: 300px; /* Definindo um tamanho máximo para as imagens */
 	text-align: center; /* Centralizar o conteúdo dentro do contêiner */
   }
   
   .prototype-images img {
-	width: 100%; /* Ajustando a largura para ocupar todo o espaço do contêiner */
-	height: auto;
+	height: 200px; /* Definindo a mesma altura para todas as imagens */
+	width: auto; /* Mantendo a proporção da imagem */
 	display: block;
   }
   
