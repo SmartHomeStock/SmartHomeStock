@@ -362,20 +362,22 @@ a {
   
   .prototype-images {
 	display: flex;
-	justify-content: space-around; /* Alinhar as imagens horizontalmente */
-	align-items: center; /* Centralizar as imagens verticalmente */
+	justify-content: center; /* Centralizar as imagens horizontalmente */
+	align-items: flex-start; /* Alinhar as imagens ao topo */
 	margin-top: 1rem;
+	gap: 2rem; /* Espaçamento entre as figuras */
   }
   
   .prototype-images figure {
-	flex: 1; /* As imagens ocuparão o espaço disponível igualmente */
 	text-align: center; /* Centralizar o conteúdo dentro do contêiner */
+	margin: 0; /* Remover margem padrão */
   }
   
   .prototype-images img {
 	height: 200px; /* Definindo a mesma altura para todas as imagens */
 	width: auto; /* Mantendo a proporção da imagem */
 	display: block;
+	margin: 0 auto; /* Centralizar a imagem dentro da figura */
   }
   
   .prototype-images figcaption {
