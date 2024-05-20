@@ -327,6 +327,58 @@ a {
     min-width: 80%;
 }
 
+.idea-content {
+	font-size: 1.3rem;
+	color: var(--clr4);
+	text-align: justify;
+	padding: 10px 0;
+  }
+  
+  .team-group {
+	margin-top: 1rem;
+  }
+  
+  .team-group h3 {
+	font-size: 2rem;
+	color: var(--clr4);
+  }
+  
+  .team-group ul {
+	list-style: none;
+	padding-left: 1rem;
+  }
+  
+  .team-group ul li {
+	font-size: 1.3rem;
+	color: var(--clr4);
+	margin-top: 0.5rem;
+  }
+  
+  .prototype-images {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: 1rem;
+  }
+  
+  .prototype-images figure {
+	flex: 1 1 calc(50% - 1rem);
+	margin: 0;
+  }
+  
+  .prototype-images img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  .prototype-images figcaption {
+	font-size: 1rem;
+	color: var(--clr4);
+	text-align: center;
+	margin-top: 0.5rem;
+  }
+  
 .button {
 	display: flex;
 	color: var(--clr1);
