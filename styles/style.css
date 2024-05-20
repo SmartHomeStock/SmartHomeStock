@@ -327,6 +327,7 @@ a {
     min-width: 80%;
 }
 
+/* Estilos para o conteúdo da ideia dentro da história */
 .idea-content {
 	font-size: 1.3rem;
 	color: var(--clr4);
@@ -337,22 +338,23 @@ a {
   /* Estilos para os grupos de equipe */
   .team-group {
 	margin-top: 2rem;
+	text-align: center; /* Centralizando as equipes */
   }
   
   .team-group h3 {
-	font-size: 2rem;
+	font-size: 1.8rem; /* Reduzindo o tamanho do título da equipe */
 	color: var(--clr4);
 	text-transform: uppercase;
+	margin-bottom: 0.5rem; /* Espaçamento inferior reduzido */
   }
   
   .team-group ul {
 	list-style: none;
-	padding-left: 1rem;
-	margin-top: 0.5rem;
+	padding-left: 0; /* Removendo o preenchimento à esquerda */
   }
   
   .team-group ul li {
-	font-size: 1.3rem;
+	font-size: 1.2rem; /* Reduzindo o tamanho do texto da equipe */
 	color: var(--clr4);
 	margin-top: 0.5rem;
 	font-family: "Saira Condensed", sans-serif; /* Mantendo a mesma fonte */
