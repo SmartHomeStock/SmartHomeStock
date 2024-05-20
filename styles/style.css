@@ -360,20 +360,21 @@ a {
 	font-family: "Saira Condensed", sans-serif; /* Mantendo a mesma fonte */
   }
   
-  /* Estilos para as imagens do protótipo */
   .prototype-images {
 	display: flex;
-	justify-content: center; /* Centralizar as imagens na horizontal */
-	gap: 1rem;
+	justify-content: space-around; /* Alinhar as imagens horizontalmente */
+	align-items: center; /* Centralizar as imagens verticalmente */
 	margin-top: 1rem;
   }
   
   .prototype-images figure {
-	flex: 1 1 30%; /* Cada imagem ocupa cerca de 30% da largura */
+	flex: 1; /* As imagens ocuparão o espaço disponível igualmente */
+	max-width: 300px; /* Definindo um tamanho máximo para as imagens */
+	text-align: center; /* Centralizar o conteúdo dentro do contêiner */
   }
   
   .prototype-images img {
-	width: 100px;
+	width: 100%; /* Ajustando a largura para ocupar todo o espaço do contêiner */
 	height: auto;
 	display: block;
   }
