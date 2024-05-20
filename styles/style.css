@@ -366,12 +366,14 @@ a {
 	align-items: flex-start; /* Alinhar as imagens ao topo */
 	margin-top: 1rem;
 	gap: 2rem; /* Espaçamento entre as figuras */
+	flex-wrap:wrap;
   }
   
   .prototype-images figure {
 	text-align: center; /* Centralizar o conteúdo dentro do contêiner */
 	margin: 0; /* Remover margem padrão */
-  }
+    flex: 1 1 30%;
+}
   
   .prototype-images img {
 	height: 200px; /* Definindo a mesma altura para todas as imagens */
