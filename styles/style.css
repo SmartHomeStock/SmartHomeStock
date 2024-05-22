@@ -162,6 +162,7 @@ a {
 }
 .footer-links h3 {
     margin-bottom: 10px;
+	color: var(--clr-white);
 }
 .footer-links a{
 	color: var(--clr-white);
