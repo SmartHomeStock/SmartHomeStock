@@ -156,6 +156,8 @@ a {
 .footer-links {
 	font-size: 1.5rem;
   	color: var(--clr-white);
+	display: flex;
+    flex-direction: column; /* Ajusta a direção dos links para vertical */
 }
 
 .footer-links a{
