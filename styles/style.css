@@ -154,14 +154,17 @@ a {
 }
 
 .footer-links {
-	font-size: 1.5rem;
-  	color: var(--clr-white);
-	display: flex;
-    flex-direction: column; /* Ajusta a direção dos links para vertical */
+	margin: 0 20px; /* Adiciona margem entre os links e os outros elementos */
+    font-size: 1.5rem;
+    color: var(--clr-white)
 }
 
 .footer-links a{
-	font-size: 1rem;
+	display: block; /* Garante que os links ocupem uma linha completa */
+    color: inherit; /* Garante que os links herdem a cor do texto */
+    text-decoration: none; /* Remove a decoração do link */
+    margin-bottom: 5px; /* Adiciona espaçamento entre os links */
+}
 }	
 
 .footer-logo {
@@ -523,7 +526,7 @@ a {
 }
 
 .ist-logo-container {
-    margin-right: auto; /* Empurra o IST Logo para a esquerda */
+    margin-right: 0 0 auto; /* Empurra o IST Logo para a esquerda */
 }
 
 .ist-logo{
