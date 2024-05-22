@@ -524,6 +524,10 @@ a {
 	display: flex;
 	min-width: 60px;
 	max-width: 60%;
+	bottom: 0;          /* Posiciona no fundo do pai */
+    left: 0;            /* Posiciona à esquerda do pai */
+    margin: 10px;       /* Margem opcional para dar um espaço do canto */
+	position: absolute;
 }
 
 
