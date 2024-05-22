@@ -23,12 +23,12 @@ main {
 }
 
 footer {
-  	position: relative;
-  	bottom: 0;
-  	display: flex;
-  	width: 100%;
-  	background-color: var(--clr4);
-	min-height:18rem;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--clr4);
+    padding: 2rem 10%;
 }
 
 h1{
@@ -116,19 +116,18 @@ a {
 
 .footer-flex {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content:space-between;
-	align-content: center;
-	width: 100%;
-	min-height: var(--footerh);
-	margin: 25px 10%;
-	gap: 50px 200px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Ajuste conforme necessário */
 }
 
 .apps {
+	flex: 1;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 }
 
 .apps-dev {
@@ -154,16 +153,19 @@ a {
 }
 
 .footer-links {
-	margin: 0 20px; /* Adiciona margem entre os links e os outros elementos */
-    font-size: 1.5rem;
-    color: var(--clr-white)
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-
+.footer-links h3 {
+    margin-bottom: 10px;
+}
 .footer-links a{
-	display: block; /* Garante que os links ocupem uma linha completa */
-    color: inherit; /* Garante que os links herdem a cor do texto */
-    text-decoration: none; /* Remove a decoração do link */
-    margin-bottom: 5px; /* Adiciona espaçamento entre os links */
+	color: var(--clr-white);
+    text-decoration: none;
+    margin-bottom: 5px;
 }
 .footer-links a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
@@ -178,12 +180,12 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 0.2rem 1rem;
-	inline-size: 100%;
 	justify-content: center;
 }
 
 .store-link img {
   	width: 100%;
+	max-width: 150px; /* Ajusta o tamanho máximo das imagens conforme necessário */
 }
 
 .home-container {
@@ -527,14 +529,14 @@ a {
 }
 
 .ist-logo-container {
-    margin-right: 0 0 auto; /* Empurra o IST Logo para a esquerda */
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .ist-logo{
-	display: flex;
-	min-width: 60px;
-	max-width: 60%;
-	margin-right: auto; /* Empurra o IST Logo para a esquerda */
+	max-width: 150px; /* Ajusta o tamanho máximo do logotipo do IST conforme necessário */
+    height: auto;
 }
 
 
