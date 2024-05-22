@@ -520,9 +520,8 @@ a {
 	font-weight: 500;
 }
 
-.footer-content {
-    display: flex;
-    align-items: center; /* Alinhar verticalmente */
+.ist-logo-container {
+    margin-right: auto; /* Empurra o IST Logo para a esquerda */
 }
 
 .ist-logo{
