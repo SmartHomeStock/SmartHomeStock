@@ -60,10 +60,10 @@
 				</div>
 				<iframe
 				class="project-proposal" 
-				src="https://drive.google.com/file/d/1B9KLBeb3m69RasDyYwpM22uQ5rkerqiI/preview" 
+				src="https://drive.google.com/file/d/1k-ALA3l_iSmF9TsOoH-aY60XeeB5SXdyJDmbUjzOWs8/preview" 
 				frameborder="0">
 				</iframe>
-				<a href="files/SHS - Project Proposal.pdf" class="button" download="">Project Proposal File</a>       
+				<a href="files/SHS - Final Pitch Deck.pdf" class="button" download="">Final Pitch Deck</a>       
 			</section>
 			<section id="benefits" class="section-container">
 				<h2>Benefits of SHS</h2>
@@ -83,101 +83,106 @@
 						</ul>
 				</ol>
 			</section>
-			<section id="history" class="section-container">
+			<section id="history" class="section-container">	
 				<h2>Our History</h2>
-				<p>
-					<strong>How it began...</strong><br>
-					The concept of Smart Home Stock emerged as a culmination of a project proposal presented by Instituto Superior Técnico, symbolizing the culmination of the Electronic Engineering studies of the team members, marking the completion of their undergraduate degrees. Driven by the desire to address more relatable and everyday challenges, the team opted to focus on smaller, domestic issues rather than more abstract ones. Through brainstorming sessions and sharing personal anecdotes within the team, the idea of addressing the issue of monitoring food stock within one's own home or in the homes of those they care for, particularly the elderly, gained traction. Thus, the concept of Smart Home Stock was born from a desire to address practical, day-to-day challenges faced by individuals and families, aiming to enhance convenience and efficiency in household management.
-				</p>
-				<p>
-					<strong>First steps...</strong><br>
-					Subsequent steps involved seeking out a scientific advisor to guide us through the process, establishing a timeline with goals to achieve throughout the year, and identifying the fundamental skills required for project development. For instance, we recognized the need to learn HTML for website creation. In this context, we acquired the necessary skills to meet our objectives, implemented a structured timeline for ongoing guidance, and remained committed to the continuous development of the project.
-				</p>
-				<p>
-					<strong>First Idea</strong><br>
-					The initial proposal was to have different containers for each product, connected to an application. Each container would have its own set of hardware, including a weight sensor (10 KG load cell), microcontroller ESP32 Wroom NodeMcu Wifi CP2102, and ADC HX711. The group divided into two:
-				</p>
-  				<div class="idea-content">
-   					 <div class="team-group">
-     					<h3>Prototype Team</h3>
-      					<ul>
-        					<li>Rafaela Pereira</li>
-      						<li>Renato Simões</li>
-      					    <li>Ricardo Fiúza</li>
-      					</ul>
-     				 <div class="prototype-images">
-       					 <figure>
-       					   <img src="images/base-tampa.jpg" alt="Prototype image 1">
-      				   	   <figcaption>Interior of the base</figcaption>
-        					</figure>
-        			<figure>
-          			<img src="images/interior-base.jpg" alt="Prototype image 2">
-        		  <figcaption>Base with lid</figcaption>
-        	</figure>
-		 	<figure>
-			<img src="images/container.png" alt="Prototype image 2">
-			<figcaption>Prototype</figcaption>
-		  </figure>
-      </div>
-    </div>
+				<button type="button" class="collapsible">How it began...</button>
+<div class="collapsible-content">
+  <p>The concept of Smart Home Stock emerged as a culmination of a project proposal presented by Instituto Superior Técnico, symbolizing the culmination of the Electronic Engineering studies of the team members, marking the completion of their undergraduate degrees. Driven by the desire to address more relatable and everyday challenges, the team opted to focus on smaller, domestic issues rather than more abstract ones. Through brainstorming sessions and sharing personal anecdotes within the team, the idea of addressing the issue of monitoring food stock within one's own home or in the homes of those they care for, particularly the elderly, gained traction. Thus, the concept of Smart Home Stock was born from a desire to address practical, day-to-day challenges faced by individuals and families, aiming to enhance convenience and efficiency in household management.</p>
+</div>
+<button type="button" class="collapsible">First steps...</button>
+<div class="collapsible-content">
+  <p>Subsequent steps involved seeking out a scientific advisor to guide us through the process, establishing a timeline with goals to achieve throughout the year, and identifying the fundamental skills required for project development. For instance, we recognized the need to learn HTML for website creation. In this context, we acquired the necessary skills to meet our objectives, implemented a structured timeline for ongoing guidance, and remained committed to the continuous development of the project.</p>
+</div>
+<button type="button" class="collapsible">First Idea</button>
+<div class="collapsible-content">
+  <p>The initial proposal was to have different containers for each product, connected to an application. Each container would have its own set of hardware, including a weight sensor (10 KG load cell), microcontroller ESP32 Wroom NodeMcu Wifi CP2102, and ADC HX711. The group divided into two:</p>
+  <div class="idea-content">
 	<div class="team-group">
-		<h3>Website Development Team</h3>
-		<ul>
-		  <li>Henrique Simões</li>
-		  <li>Leonor Mira</li>
-		  <li>Vera Amaral</li>
-		</ul>
-		<div class="prototype-images">
-			<figure>
-				<img src="images/website_firstversion.png" alt="Prototype image 1">
-				<figcaption>Website first version</figcaption>
-			</figure>
-			<figure>
-				<img src="images/home-page.jpg" alt="Prototype image 1">
-				<figcaption>Home Page</figcaption>
-			</figure>
-			<figure>
-				<img src="images/pantry.jpg" alt="Prototype image 1">
-				<figcaption>Pantry Inventory Page</figcaption>
-			</figure>
-			<figure>
-				<img src="images/shopping-list.jpg" alt="Prototype image 1">
-				<figcaption>Shopping List</figcaption>
-			</figure>	
-		</div>
-	  </div>
-	  <p>
-		<h4>Dilemma:</h4><br>
-		However, the main issue with this approach was the cost. A dilemma arose between maintaining the original idea, which involved high costs due to one container for each food item, or adopting a less automated approach, using only one scale and requiring the user to scan each item. It was decided to explore the second idea.
-	  </p>
-	  <p>
-		<strong>Second Idea</strong><br>
-		The second final proposal already included the integration of a scale on each pantry shelf, aiming to mitigate the cost issue. Additionally, we implemented a camera capable of recognizing products on the scale. The new components include a wooden base for each shelf, a microcontroller OV2640- ESP32-CAM, na ADC HX711, and four half bridge load cell sensors (50kg). 
-	</p>
-	<div class="prototype-images">
+	 <h3>Prototype Team</h3>
+	  <ul>
+		<li>Rafaela Pereira</li>
+		  <li>Renato Simões</li>
+		  <li>Ricardo Fiúza</li>
+	  </ul>
+  <div class="prototype-images">
 		<figure>
-			<img src="images/circuit_diagram.jpeg" alt="Prototype image 1">
-			<figcaption>Circuit Diagram</figcaption>
+		  <img src="images/base-tampa.jpg" alt="Prototype image 1">
+			<figcaption>Interior of the base</figcaption>
 		</figure>
-		<figure>
-			<img src="images/calibracao.jpg" alt="Prototype image 1">
-			<figcaption>Calibration</figcaption>
-		</figure>
-		<figure>
-			<img src="images/ESP32CAM.jpg" alt="Prototype image 1">
-			<figcaption>Photographs for the recognition of a Mimosa milk carton</figcaption>
-		</figure>
-		<figure>
-			<img src="images/ESP32CAM.png" alt="Prototype image 1">
-			<figcaption>ESP32CAM</figcaption>
-		</figure>
-		<figure>
-			<img src="images/BaseHardware.png" alt="Prototype image 1">
-			<figcaption>Base (Upside Down)</figcaption>
-		</figure>		
-	</div>
+<figure>
+  <img src="images/interior-base.jpg" alt="Prototype image 2">
+<figcaption>Base with lid</figcaption>
+</figure>
+<figure>
+<img src="images/container.png" alt="Prototype image 2">
+<figcaption>Prototype</figcaption>
+</figure>
+</div>
+</div>
+<div class="team-group">
+<h3>Website Development Team</h3>
+<ul>
+<li>Henrique Simões</li>
+<li>Leonor Mira</li>
+<li>Vera Amaral</li>
+</ul>
+<div class="prototype-images">
+<figure>
+<img src="images/website_firstversion.png" alt="Prototype image 1">
+<figcaption>Website first version</figcaption>
+</figure>
+<figure>
+<img src="images/home-page.jpg" alt="Prototype image 1">
+<figcaption>Home Page</figcaption>
+</figure>
+<figure>
+<img src="images/pantry.jpg" alt="Prototype image 1">
+<figcaption>Pantry Inventory Page</figcaption>
+</figure>
+<figure>
+<img src="images/shopping-list.jpg" alt="Prototype image 1">
+<figcaption>Shopping List</figcaption>
+</figure>	
+</div>
+</div>
+<p>
+<h4>Dilemma:</h4><br>
+However, the main issue with this approach was the cost. A dilemma arose between maintaining the original idea, which involved high costs due to one container for each food item, or adopting a less automated approach, using only one scale and requiring the user to scan each item. It was decided to explore the second idea.
+</p>
+</div>			
+</div>
+<button type="button" class="collapsible">Second Idea</button>
+<div class="collapsible-content">
+  <p>Subsequent steps involved seeking out a scientific advisor to guide us through the process, establishing a timeline with goals to achieve throughout the year, and identifying the fundamental skills required for project development. For instance, we recognized the need to learn HTML for website creation. In this context, we acquired the necessary skills to meet our objectives, implemented a structured timeline for ongoing guidance, and remained committed to the continuous development of the project.</p>
+  <p>
+	The second final proposal already included the integration of a scale on each pantry shelf, aiming to mitigate the cost issue. Additionally, we implemented a camera capable of recognizing products on the scale. The new components include a wooden base for each shelf, a microcontroller OV2640- ESP32-CAM, na ADC HX711, and four half bridge load cell sensors (50kg). 
+</p>
+<div class="prototype-images">
+	<figure>
+		<img src="images/circuit_diagram.jpeg" alt="Prototype image 1">
+		<figcaption>Circuit Diagram</figcaption>
+	</figure>
+	<figure>
+		<img src="images/calibracao.jpg" alt="Prototype image 1">
+		<figcaption>Calibration</figcaption>
+	</figure>
+	<figure>
+		<img src="images/ESP32CAM.jpg" alt="Prototype image 1">
+		<figcaption>Photographs for the recognition of a Mimosa milk carton</figcaption>
+	</figure>
+	<figure>
+		<img src="images/ESP32CAM.png" alt="Prototype image 1">
+		<figcaption>ESP32CAM</figcaption>
+	</figure>
+	<figure>
+		<img src="images/BaseHardware.png" alt="Prototype image 1">
+		<figcaption>Base (Upside Down)</figcaption>
+	</figure>		
+</div>
+</div>
+<button type="button" class="collapsible">Final Project</button>
+<div class="collapsible-content">
 	<p>
-		<strong>Final Project</strong><br>
 		For the final project submission, we chose to use two ESPs to simplify the integration of the camera code with the sensor code. We created a poster to summarize our project and completed the application that integrates the pantry stock information, including a shopping list section.
 	</p>
 	<div class="prototype-images">
@@ -209,15 +214,16 @@
 			<img src="images/posterfinal.jpg" alt="Prototype image 1">
 			<figcaption>Poster</figcaption>
 		</figure>
-	</div>
-	<h3>Conclusion</h3>
-	<p>
-	  Smart Home Stock embarked on its journey as a solution to address the practical challenges of pantry management, evolving from an idea presented by Instituto Superior Técnico into a tangible product aimed at enhancing convenience and efficiency in household management.
-	  From the initial concept of individual containers to the integration of smart scales and product recognition technology, Smart Home Stock has continually evolved to meet the needs of its users while addressing cost concerns and technological advancements.
-	  As we look ahead, we envision Smart Home Stock becoming an indispensable tool for households worldwide, seamlessly integrating into daily routines and simplifying the process of pantry management. Smart Home Stock aims to revolutionize the way we manage household supplies, contributing to enhanced organization, reduced waste, and an overall improved quality of life for users.
-	  With a commitment to innovation and user-centric design, Smart Home Stock is poised to lead the way in redefining pantry management for the modern household, offering an unparalleled experience that simplifies and streamlines daily routines.
-	  For further details, refer to the weekly updates recorded during the project development.
-	</p>
+	</div></div>
+	<button type="button" class="collapsible">Conclusion</button>
+	<div class="collapsible-content">
+		<p>
+			Smart Home Stock embarked on its journey as a solution to address the practical challenges of pantry management, evolving from an idea presented by Instituto Superior Técnico into a tangible product aimed at enhancing convenience and efficiency in household management.
+			From the initial concept of individual containers to the integration of smart scales and product recognition technology, Smart Home Stock has continually evolved to meet the needs of its users while addressing cost concerns and technological advancements.
+			As we look ahead, we envision Smart Home Stock becoming an indispensable tool for households worldwide, seamlessly integrating into daily routines and simplifying the process of pantry management. Smart Home Stock aims to revolutionize the way we manage household supplies, contributing to enhanced organization, reduced waste, and an overall improved quality of life for users.
+			With a commitment to innovation and user-centric design, Smart Home Stock is poised to lead the way in redefining pantry management for the modern household, offering an unparalleled experience that simplifies and streamlines daily routines.
+			For further details, refer to the weekly updates recorded during the project development.
+		  </p></div>
   </section>
 		
 			</section>
@@ -317,4 +323,5 @@
   	</body>
 	  	<script src="scripts/nav.js"></script>
 	  	<script src="scripts/calendar.js"></script>
+		<script src="scripts/collapsible.js"></script>
 </html>
